@@ -1,0 +1,20 @@
+[package]
+name = "viz-js"
+description = "Rust + Wasm bindings for viz-js"
+version = "3.1.0"
+edition = "2021"
+authors = ["Tomasz Maciosowski <t4ccer@gmail.com>"]
+license = "AGPL-3.0"
+readme = "README.md"
+repository = "https://github.com/t4ccer/viz-js-rs"
+keywords = ["wasm", "graphviz"]
+categories = ["wasm", "web-programming"]
+
+[dependencies]
+wasm-bindgen = "0.2.87"
+wasm-bindgen-futures = "0.4.37"
+web-sys = { version = "0.3.64", features = ["SvgsvgElement"] }
+js-sys = "0.3.64"
+
+[workspace]
+members = ["./examples/simple"]
