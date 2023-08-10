@@ -2,7 +2,7 @@
 
 ## Usage
 
-See TODO
+See [example](examples/simple)
 
 ## License
 
